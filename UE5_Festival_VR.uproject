@@ -35,16 +35,28 @@
 				"Win64",
 				"Android"
 			]
+		},
+		{
+			"Name": "OculusHandTools",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Android"
+			]
+		},
+		{
+			"Name": "WMFCodecs",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
 		}
 	],
 	"TargetPlatforms": [
 		"Android",
-		"IOS",
-		"Linux",
-		"Mac",
 		"PS4",
 		"PS5",
-		"Windows",
 		"WindowsNoEditor",
 		"Switch",
 		"XboxOne",
