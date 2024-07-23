@@ -39,6 +39,19 @@
 		{
 			"Name": "GPULightmass",
 			"Enabled": true
+		},
+		{
+			"Name": "OculusHandTools",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Android"
+			]
+		},
+		{
+			"Name": "OculusUtils",
+			"Enabled": false
 		}
 	],
 	"TargetPlatforms": [
