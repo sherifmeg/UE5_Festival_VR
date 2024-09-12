@@ -52,10 +52,6 @@
 		{
 			"Name": "OculusUtils",
 			"Enabled": false
-		},
-		{
-			"Name": "HoudiniEngine",
-			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
