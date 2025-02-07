@@ -12,7 +12,7 @@ for /f "delims=" %%A in ('%ADB% %DEVICE% shell "echo $EXTERNAL_STORAGE"') do @se
 %ADB% %DEVICE% uninstall com.epicgames.festival
 @echo.
 @echo Installing existing application. Failures here indicate a problem with the device (connection or storage permissions) and are fatal.
-%ADB% %DEVICE% install MovementSample-Android-Shipping-arm64.apk
+%ADB% %DEVICE% install MovementSample-arm64.apk
 @if "%ERRORLEVEL%" NEQ "0" goto Error
 %ADB% %DEVICE% shell pm list packages com.epicgames.festival
 
