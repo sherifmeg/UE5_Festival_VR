@@ -52,6 +52,10 @@
 		{
 			"Name": "OculusUtils",
 			"Enabled": false
+		},
+		{
+			"Name": "HttpBlueprint",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
